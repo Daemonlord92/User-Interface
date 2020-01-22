@@ -64,3 +64,77 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Body Code */
+
+body {
+	max-width: 900px;
+	margin: 25px auto;
+}
+
+/* Header Code */
+header h1 {
+	font-size: 65px;
+}
+
+header nav a {
+	color: #DCDCDC;
+	text-decoration: none;
+	padding: 25px;
+	
+}
+
+header nav .logo {
+	display: inline;
+	padding-left: 20px;
+	vertical-align: middle;
+}
+
+header div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+header div h1 {
+	max-width: 200px;
+	text-align: center;
+	margin: 30px;
+
+}
+
+header div p {
+	border: 1px black solid;
+	padding: 5px 25px;
+	max-width: 130px;
+	margin: 0px auto;
+}
+
+header div img {
+	margin: 25px 75px;
+}
+
+/* Section Content */
+.column {
+	width: 100%;
+}
+
+div section {
+	display: inline-block;
+	margin: 25px 25px;
+}
+
+div section div {
+	float: left;
+	width: 33%;
+
+}
+
+div section .fifty {
+	width: 50%;
+}
+
+/* Footer Section */
+
+footer div p {
+	text-align: center;
+}
